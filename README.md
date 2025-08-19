@@ -22,3 +22,7 @@ It is simple Calculor app
  Test Organization
 
 All tests are located in the `tests/` directory:
+
+Note: 
+Instead of sharing static screenshots, I’ve deployed the application and provided a live link. This allows anyone to explore and interact with the app directly:
+https://calculator-six-iota-85.vercel.app/
