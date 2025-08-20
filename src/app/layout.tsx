@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full">
       <body  className={`${geistSans.variable} ${geistMono.variable} antialiased h-full flex flex-col`}>
-        <Header pageTitle="bushra123"/>
+        <Header pageTitle="Calculator"/>
         {children}
       </body>
     </html>
