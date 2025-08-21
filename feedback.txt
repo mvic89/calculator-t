@@ -1,0 +1,4 @@
+Feedback:
+  - Include the Button & BackButton comp. functionality in the Keyboard comp. instead.
+  - Use of describe to sectionize the tests better.
+  - Maybe think about the relevance of what you're testing.
