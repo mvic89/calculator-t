@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     <div className="w-[300px] p-4 border rounded-2xl bg-gray-700 flex flex-col gap-2 shadow-lg">
-      <h1 className="w-full max-w-md bg-white rounded-lg  p-6 space-y-6">Calculator</h1>
+      <h1 className="w-full max-w-md bg-white rounded-lg p-6 space-y-6 text-m font-bold uppercase">Casio</h1>
       {/* <BackButton onBackspace={handleBackspace}/> */}
       {/* <Button label={'+'} onClick={() => {}}/> */}
       <Display input={input} result={result}/>
