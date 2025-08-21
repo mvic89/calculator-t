@@ -5,8 +5,8 @@ interface DisplayProps {
 
 const Display = ({input, result}: DisplayProps) => {
   return (
-    <div>
-      <p>{input}</p>
+    <div data-testid="displayscreen">
+      <h3>{input}</h3>
       <h2>{result}</h2>
     </div>
   )
