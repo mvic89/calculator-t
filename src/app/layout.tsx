@@ -25,9 +25,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body  className={`${geistSans.variable} ${geistMono.variable} antialiased h-full flex flex-col`}>
+      <body  className={`${geistSans.variable} ${geistMono.variable} antialiased h-full flex flex-col items-center`}>
         <Header pageTitle="Calculator"/>
-        {children}
+        <main className="w-full max-w-[1200px] px-4 py-8 flex justify-center">
+          {children}
+        </main>
       </body>
     </html>
   );
